@@ -1,8 +1,8 @@
 # Dockerizing thunder xware
 # xware version: Xware1.0.16 release date: 2014-08-27
 
-FROM ubuntu:14.04.4
-MAINTAINER yinheli <me@yinheli.com>
+FROM ubuntu:15.10
+MAINTAINER Zhang HuiJie <yitianbuji@gmail.com>
 
 # RUN /bin/sed -i.bak 's/archive/cn\.archive/' /etc/apt/sources.list
 RUN grep -v '^#' /etc/apt/sources.list
